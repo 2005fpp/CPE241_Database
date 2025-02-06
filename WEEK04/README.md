@@ -40,6 +40,8 @@ sudo nano view_table.php
 sudo nano insert_data.php
 ```
 
+![command](pics/01.png)
+
 ---
 
 ## Demonstration Screenshots
@@ -48,27 +50,21 @@ sudo nano insert_data.php
 
 On the homepage, the user can select a table, such as the "departments" table, from the dropdown menu to view all the records.
 
-![Home Page](pics/01.png)
+![Home Page](pics/02.png)
 
-### Step 2: Displaying Records
+### Step 2: Displaying Records And Inserting
 
-After selecting a table, the records from the "departments" table will be shown on the web page.
+After selecting a table, the records from the "departments" table will be shown on the web page. And to insert a new record, you can enter the values in a comma-separated format.
 
-![Display Records](pics/02.png)
+![Display Records & inserting](pics/03.png)
 
-### Step 3: Inserting New Records
-
-To insert a new record, you can enter the values in a comma-separated format.
-
-![Insert Data](pics/03.png)
-
-### Step 4: Successful Insertion
+### Step 3: Successful Insertion
 
 After successfully inserting the new record, a confirmation message will appear. You can click the "Home" button to return to the homepage.
 
 ![Successful Insert](pics/04.png)
 
-### Step 5: Viewing the New Data
+### Step 4: Viewing the New Data
 
 Once the record has been inserted, you can select the "departments" table again to view the newly inserted data.
 
