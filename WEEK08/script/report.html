@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report</title>
+  </head>
+  <body>
+    <h2>MENU</h2>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+      <li>
+        <a href="#">Inventory</a>
+        <ul>
+          <li><a href="stock-management.html">Stock Management</a></li>
+          <li><a href="products-reviews-landing.html">Products & Reviews</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">Orders</a>
+        <ul>
+          <li><a href="track-orders.html">Track Orders</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">User Manager</a>
+        <ul>
+          <li><a href="customers.html">Customers</a></li>
+          <li><a href="admins.html">Admins</a></li>
+        </ul>
+      </li>
+
+      <li><a href="flash-sales.html">Flash Sales</a></li>
+      <li><a href="report.html">Report</a></li>
+
+      <li>
+        <a href="login.html">
+          <button type="button">Sign Out</button>
+        </a>
+      </li>
+    </ul>
+
+    <div class="content">
+      <h2>Stock Management</h2>
+      <p>Home / Stock Management</p>
+
+      <!-- Total Monthly Sales Chart -->
+      <section class="sales-chart">
+        <h3>Total Monthly Sales</h3>
+        <div class="chart">
+          <a href="404.html">View Bar Chart for total monthly sales</a>
+        </div>
+      </section>
+
+      <!-- Best-Selling Products Table -->
+      <section class="best-selling">
+        <h3>Best-Selling Products</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Units Sold</th>
+              <th>Revenue</th>
+              <th>% of Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>เพียวริคุ มิกซ์เบอร์รี่</td>
+              <td>314</td>
+              <td>3,340.00</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>เพียวริคุ ปลาดอลลี่</td>
+              <td>0</td>
+              <td>0.00</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>เพียวริคุ กล้วย</td>
+              <td>12</td>
+              <td>100.00</td>
+              <td>4%</td>
+            </tr>
+            <tr>
+              <td>เพียวริคุ ลาบ</td>
+              <td>475</td>
+              <td>5,040.00</td>
+              <td>30%</td>
+            </tr>
+            <tr>
+              <td>เพียวริคุ บูเบอร์รี่</td>
+              <td>22</td>
+              <td>400.00</td>
+              <td>10%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <div class="bottom-sections">
+        <!-- Sales by Category -->
+        <section class="category-sales">
+          <h3>Sales by Category</h3>
+          <div class="donut-chart">
+            <!-- Donut chart would go here -->
+            <div class="total">
+              <p>Total</p>
+              <p class="total-value">15,770</p>
+            </div>
+          </div>
+          <div class="categories">
+            <div class="category">
+              <span class="color-dot beverage"></span>
+              <span class="category-name">Beverage</span>
+              <span class="category-percent">45% (7,125)</span>
+              <p class="orders">288 orders</p>
+            </div>
+            <div class="category">
+              <span class="color-dot food"></span>
+              <span class="category-name">Food</span>
+              <span class="category-percent">30% (4,720)</span>
+              <p class="orders">124 orders</p>
+            </div>
+            <div class="category">
+              <span class="color-dot snack"></span>
+              <span class="category-name">Snack</span>
+              <span class="category-percent">25% (3,952)</span>
+              <p class="orders">90 orders</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recent Product Reviews -->
+        <section class="product-reviews">
+          <h3>Recent Product Reviews</h3>
+          <div class="review">
+            <div class="review-header">
+              <h3>Mooham 1</h3>
+              <p class="product-name">เพียวริคุ มิกซ์เบอร์รี่</p>
+            </div>
+            <p class="review-text">
+              ลองดื่มแล้ว เสพติดมากครับ อยากดื่มอีกใจจะขาด #เพียวริคุเพื่อชีวิต
+            </p>
+            <div class="rating">★★★★★</div>
+          </div>
+          <div class="review">
+            <div class="review-header">
+              <h3>Mooham 1</h3>
+              <p class="product-name">เพียวริคุ มิกซ์เบอร์รี่</p>
+            </div>
+            <p class="review-text">
+              ลองดื่มแล้ว เสพติดมากครับ อยากดื่มอีกใจจะขาด #เพียวริคุเพื่อชีวิต
+            </p>
+            <div class="rating">★★★★★</div>
+          </div>
+          <div class="review">
+            <div class="review-header">
+              <h3>Mooham 1</h3>
+              <p class="product-name">เพียวริคุ มิกซ์เบอร์รี่</p>
+            </div>
+            <p class="review-text">
+              ลองดื่มแล้ว เสพติดมากครับ อยากดื่มอีกใจจะขาด #เพียวริคุเพื่อชีวิต
+            </p>
+            <div class="rating">★★★★★</div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
